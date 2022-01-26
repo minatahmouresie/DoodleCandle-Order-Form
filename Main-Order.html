@@ -14,7 +14,7 @@
 </p>
 <P>Learn more about our candles on our Instagram! <a href="https://www.instagram.com/doodlecandles/?hl=en">Instagram
         Page</a></P>
-<p>Below we will be asking you to...
+<p>Below we will be asking you fill out the form which includes...
 <ol>
     <li>Basic Information</li>
     <li>Candle questions
@@ -26,55 +26,60 @@
     </li>
 </ol>
 </p>
-<H2>Please use the form below to submit your order request..</H2>
-<form action="/Orders"></form>
-<h3>Basic Information</h3>
-<div>
-    <label for="first">First Name:</label>
-    <input type="text" id="first" name="first" required>
+<H2>Please use the form below to submit your order request.</H2>
+<form action="/Orders">
+    <h3>Basic Information</h3>
+    <div>
+        <label for="first">First Name:</label>
+        <input type="text" id="first" name="first" required>
+        <br>
+        <br>
+        <label for="last">Last Name:</label>
+        <input type="text" id="last" name="last" required>
+        <br>
+        <br>
+        <label for="Firstorder">Is this your first order?</label>
+        <label for="yes">Yes.</label>
+        <input type="radio" id="yes" name="Firstorder">
+        <label for="no">No.</label>
+        <input type="radio" id="no" name="Firstorder">
+    </div>
+    <div>
+        <h3>Candle Details</h3>
+        <h4>Scents (one per Candle)</h4>
+        <input type="checkbox" id="G" name="G">
+        <label for="G">Grapefruit</label>
+        <br>
+        <input type="checkbox" id="P" name="P">
+        <label for="P">Peach</label>
+        <br>
+        <input type="checkbox" id="FW" name="FW">
+        <label for="FW">Fire Wood</label>
+        <br>
+        <input type="checkbox" id="EN" name="EN">
+        <label for="EG">Egg Nog</label>
+        <br>
+        <input type="checkbox" id="FL" name="FL">
+        <label for="FL">FruitLoops</label>
+        <h4>Colours (One per Candle).</h4>
+        <input type="checkbox" id="ColourG" name="ColourG">
+        <label for="ColourG">Green</label>
+        <br>
+        <input type="checkbox" id="ColourP" name="ColourP">
+        <label for="ColourP">Pink</label>
+        <br>
+        <input type="checkbox" id="ColourY" name="ColourY">
+        <label for="ColourY">Yellow</label>
+        <br>
+        <input type="checkbox" id="ColourR" name="ColourR">
+        <label for="ColourR">Red</label>
+        <br>
+        <input type="checkbox" id="ColourB" name="ColourB">
+        <label for="ColourB">Blue</label>
+    </div>
     <br>
-    <label for="last">Last Name:</label>
-    <input type="text" id="last" name="last" required>
-    <br>
-    <label for="Firstorder">Is this your first order?</label>
-    <label for="yes">Yes.</label>
-    <input type="radio" id="yes" name="Firstorder">
-    <label for="no">No.</label>
-    <input type="radio" id="no" name="Firstorder">
-</div>
-<div>
-    <h3>Candle Details</h3>
-    <h4>Scents (one per Candle)</h4>
-    <input type="checkbox" id="G" name="G">
-    <label for="G">Grapefruit</label>
-    <br>
-    <input type="checkbox" id="P" name="P">
-    <label for="P">Peach</label>
-    <br>
-    <input type="checkbox" id="FW" name="FW">
-    <label for="FW">Fire Wood</label>
-    <br>
-    <input type="checkbox" id="EN" name="EN">
-    <label for="EG">Egg Nog</label>
-    <br>
-    <input type="checkbox" id="FL" name="FL">
-    <label for="FL">FruitLoops</label>
-    <h4>Colours (One per Candle).</h4>
-    <input type="checkbox" id="ColourG" name="ColourG">
-    <label for="ColourG">Green</label>
-    <br>
-    <input type="checkbox" id="ColourP" name="ColourP">
-    <label for="ColourP">Pink</label>
-    <br>
-    <input type="checkbox" id="ColourY" name="ColourY">
-    <label for="ColourY">Yellow</label>
-    <br>
-    <input type="checkbox" id="ColourR" name="ColourR">
-    <label for="ColourR">Red</label>
-    <br>
-    <input type="checkbox" id="ColourB" name="ColourB">
-    <label for="ColourB">Blue</label>
-
+    <button>Submit!</button>
+</form>
 
 </div>
 
