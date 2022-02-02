@@ -1,0 +1,39 @@
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline black;
+    color: #e06b86;
+}
+
+h2 {font-size: 25px;
+    color: #da5574;
+}
+
+h3 {
+    background-color: #f3abbc;
+}
+h4 {
+    color: #da5574;
+}
+p,li{
+    font-size: 15px;
+}
+
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+max-width: 1000px;;
+}
+
+#first,#last{
+    background-color: #BBC7A4;
+}
+.candeets {
+    background-color: #BBC7A4; 
+}
+.p1 {
+    background-color: #BBC7A4;
+}
+
+body {background-color: #D6DBD2;}
